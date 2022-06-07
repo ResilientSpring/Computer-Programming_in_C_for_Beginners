@@ -35,4 +35,6 @@ int main() {
 	printf("The value of ultimate variable is %d \n", **double_pointer);
 
 	printf("The address of ultimate variable is %d \n", &ultimate_variable);
+
+	printf("The address of ultimate variable is %p \n", &ultimate_variable);
 }
