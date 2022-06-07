@@ -27,4 +27,10 @@ int main() {
 	printf("The value of intermediate pointer is %p \n", intermediate_pointer);
 
 	printf("The address of ultimate variable is %p \n", *double_pointer);
+
+	printf("The address of intermediate pointer is %p \n", &intermediate_pointer);
+
+	printf("The address of intermediate pointer is %p \n", double_pointer);
+
+	printf("The value of ultimate variable is %d \n", **double_pointer);
 }
