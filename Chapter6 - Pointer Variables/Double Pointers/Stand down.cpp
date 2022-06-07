@@ -20,5 +20,7 @@ int main() {
 	i_ptr = &ultimate_variable;   // & is an operator standing for the memory address of its operand.
 	double_pointer = &i_ptr;
 
+	printf("The value of the ultimate variable is %d \n", ultimate_variable);
 
+	printf("The address of ultimate variable is %p \n", &ultimate_variable);
 }
